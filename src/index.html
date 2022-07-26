@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iván López - Freelance Web Developer</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script type="module" src="./index.js"></script>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.png" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Square+Peg&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <input type="checkbox" name="toggle-dark-mode" id="dark-mode" />
+  <body class="flex-column">
+    <nav>
+      <div class="logo">
+        <p>Ilm</p>
+      </div>
+      <ul class="navigation-links">
+        <li class="navigation-links-item">
+          <a class="link" href="#about">About</a>
+        </li>
+        <li class="navigation-links-item">
+          <a class="link" href="#work">Work</a>
+        </li>
+        <li class="navigation-links-item">
+          <a class="link" href="#contact">Contact</a>
+        </li>
+      </ul>
+      <div class="dark-mode">
+        <label for="dark-mode"
+          ><i class="fa-solid fa-circle-half-stroke"></i
+        ></label>
+      </div>
+    </nav>
+    <main class="flex-column">
+      <div id="about" class="profile">
+        <div class="profile-img">
+          <img src="./assets/img.png" alt="Me" />
+        </div>
+        <div class="profile-data flex-column">
+          <h1 class="title">
+            Hi, I'm Iván and I'm a <strong>Junior Front-End Developer</strong>
+          </h1>
+          <p>
+            My name is Iván, from Galicia, Spain. My academic background is in
+            microcomputer systems, and my self-taught training in front-end web
+            development. My passion for programming led me to quickly acquire
+            advanced knowledge and pushes me to keep improving and learning new
+            technologies.
+          </p>
+          <p>
+            <i
+              >This website is still <u>under construction</u> so I'm sorry if
+              you see incomplete information or missing links.</i
+            >
+          </p>
+          <div class="profile-buttons">
+            <a href="mailto:ilopezwebs@gmail.com">
+              <button class="button button-1">Contact Me</button></a
+            >
+            <a href="#work">
+              <button class="button button-2">Check my work</button></a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="work flex-column">
+        <div class="work-start">
+          <h2 id="work" class="title">Work</h2>
+          <p>Check out some of my projects</p>
+        </div>
+        <div class="portfolio">
+          <div class="portfolio-item">
+            <div class="porfolio-item-image">
+              <img src="./assets/portfolio.png" alt="Image" />
+            </div>
+            <div class="portfolio-item-info flex-column">
+              <p>Personal Project</p>
+              <h2 class="portfolio-item-title title-2">Personal Portfolio</h2>
+              <p>
+                A simple and light website where I will show some of my work. It
+                is made with basic HTML and CSS and includes small features like
+                dark mode. The website is adapted to smartphones.
+              </p>
+              <div class="portfolio-item-footer">
+                <div class="portfolio-item-tags">
+                  <p class="portfolio-tag">HTML</p>
+                  <p class="portfolio-tag">CSS</p>
+                </div>
+                <div class="portfolio-item-buttons">
+                  <button class="portfolio-button button button-2">
+                    <i class="fa-solid fa-up-right-from-square"></i>Web
+                  </button>
+                  <button class="portfolio-button button button-1">
+                    <i class="fa-brands fa-github"></i>Code
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item flex-column">
+            <div class="porfolio-item-image">
+              <img src="../assets/clean2home.jpg" alt="Image" />
+            </div>
+            <div class="portfolio-item-info flex-column">
+              <p>Team Project</p>
+              <h2 class="portfolio-item-title title-2">Clean2Home</h2>
+              <p>
+                Team project developed as part of the "Front-End Programming and
+                Web Design Course" of the EOI. Clean2home.es is a functional web
+                app that uses the Vue framework and several technologies such as
+                Firebase, Pinia, SASS or Vite as well as Stripe, Analytics,
+                Google Maps API integrations among others.
+              </p>
+              <div class="portfolio-item-footer">
+                <div class="portfolio-item-tags">
+                  <p class="portfolio-tag">JAVASCRIPT</p>
+                  <p class="portfolio-tag">VUE 3</p>
+                  <p class="portfolio-tag">FIREBASE</p>
+                </div>
+                <div class="portfolio-item-buttons">
+                  <a target="_blank" href="https://clean2home.es">
+                    <button class="portfolio-button button button-2">
+                      <i class="fa-solid fa-up-right-from-square"></i>Web
+                    </button></a
+                  >
+                  <a
+                    target="_blank"
+                    href="https://github.com/clean2home/clean2home-app"
+                    ><button class="portfolio-button button button-1">
+                      <i class="fa-brands fa-github"></i>Code
+                    </button></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item">
+            <div class="porfolio-item-image">
+              <img src="./assets/fin_calc.png" alt="Image" />
+            </div>
+            <div class="portfolio-item-info flex-column">
+              <p>Personal Project</p>
+              <h2 class="portfolio-item-title title-2">Finance Calculator</h2>
+              <p>
+                Finance calculator made in React. Made from scratch with HTML
+                and CSS using javascript for the calculation formulas. Includes
+                a compound interest, present value, CAGR, annuity and mortgage
+                calculator. The website is adapted to smartphone using media
+                queries.
+              </p>
+              <div class="portfolio-item-footer">
+                <div class="portfolio-item-tags">
+                  <p class="portfolio-tag">HTML & CSS</p>
+                  <p class="portfolio-tag">REACT</p>
+                  <p class="portfolio-tag">JAVASCRIPT</p>
+                </div>
+                <div class="portfolio-item-buttons">
+                  <button class="portfolio-button button button-2">
+                    <i class="fa-solid fa-up-right-from-square"></i>Web
+                  </button>
+                  <button class="portfolio-button button button-1">
+                    <i class="fa-brands fa-github"></i>Code
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item">
+            <div class="porfolio-item-image">
+              <img src="./assets/random_quote.jpg" alt="Image" />
+            </div>
+            <div class="portfolio-item-info flex-column">
+              <p>Personal Project</p>
+              <h2 class="portfolio-item-title title-2">
+                Random Quote Generator
+              </h2>
+              <p>
+                This website generates a random quote each time the page is
+                reloaded by collecting data from
+                <a
+                  href="https://free-quotes-api.herokuapp.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >this API</a
+                >. The website is also adapted to smartphone.
+              </p>
+              <div class="portfolio-item-footer">
+                <div class="portfolio-item-tags">
+                  <p class="portfolio-tag">HTML & CSS</p>
+                  <p class="portfolio-tag">JAVASCRIPT</p>
+                  <p class="portfolio-tag">API</p>
+                </div>
+                <div class="portfolio-item-buttons">
+                  <a
+                    target="_blank"
+                    href="https://ilm1337.github.io/random-quote-generator/"
+                  >
+                    <button class="portfolio-button button button-2">
+                      <i class="fa-solid fa-up-right-from-square"></i>Web
+                    </button></a
+                  >
+                  <a
+                    target="_blank"
+                    href="https://github.com/ilm1337/random-quote-generator"
+                    ><button class="portfolio-button button button-1">
+                      <i class="fa-brands fa-github"></i>Code
+                    </button></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="contact" class="contact flex-column">
+        <h2 class="title">Contact</h2>
+        <p>
+          This form is probably not working yet as this website is under
+          construction, but you can contact me temporarily via Linkedin or
+          email. I will get back to you as soon as possible.
+        </p>
+        <div class="contact-links">
+          <a target="_blank" class="link" href="https://github.com/ilm1337/"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            target="_blank"
+            class="link"
+            href="https://www.linkedin.com/in/ivanlopezmontero/"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+        <a href="mailto:ilopezwebs@gmail.com" class="contact-email"
+          >ilopezwebs@gmail.com <i class="fa-solid fa-arrow-right-long"></i
+        ></a>
+        <form class="contact-form flex-column" action="submit">
+          <div class="contact-form-data">
+            <input
+              class="contact-form-item"
+              type="text"
+              placeholder="Your Email"
+            />
+            <input
+              class="contact-form-item"
+              type="text"
+              placeholder="Your name"
+            />
+          </div>
+          <br />
+          <textarea
+            name=""
+            class="contact-form-item"
+            id="message"
+            cols="80"
+            rows="15"
+            placeholder="Tell me"
+            maxlength="512"
+          ></textarea>
+          <button class="button button-1 contact-button">
+            <i class="fa-solid fa-paper-plane"></i> Send
+          </button>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p class="author">Iván López | 2022</p>
+    </footer>
+  </body>
+</html>
